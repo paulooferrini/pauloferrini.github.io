@@ -169,4 +169,4 @@ The latest version of the application also integrates ControlNet Depth to provid
 3D Artist · Look Development · Digital Art
 
 Portfolio:  [pauloferrini.com](https://pauloferrini.com)  
-Instagram:  [instagram.com](https://www.instagram.com/pauliferrino)
+Instagram:  [pauliferrino](https://www.instagram.com/pauliferrino)
