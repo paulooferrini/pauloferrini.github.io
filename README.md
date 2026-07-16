@@ -54,8 +54,8 @@ Rather than relying exclusively on quantitative metrics, the training process wa
 
 <table align="center">
 <tr>
+<th>without trigger</th>
 <th>with trigger</th>
-<th>without</th>
 </tr>
 
 <tr>
