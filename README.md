@@ -51,6 +51,21 @@ Rather than relying exclusively on quantitative metrics, the training process wa
 
 
 *Trigger Phrase : style of pauloferrini
+
+<table align="center">
+<tr>
+<th>with trigger</th>
+<th>without</th>
+</tr>
+
+<tr>
+<td><img src="https://github.com/user-attachments/assets/06a3259e-342d-4ea3-ab37-4003d7822d32" width="100%"></td>
+<td><img src="https://github.com/user-attachments/assets/0de15951-3bdd-4f23-9474-627b2344cefd" width="100%"></td>
+
+</tr>
+</table>
+
+
 ---
 
 # LoRA Strength
