@@ -54,6 +54,8 @@ One of the most noticeable parameters during inference is the LoRA strength. Low
 While stylistic elements are already visible at lower strengths, the characteristic Paulo Ferrini aesthetic only fully emerges around a LoRA strength of 1.2. At this point the material appearance, facial deformation and body horror influences become significantly more pronounced, closely resembling the visual identity found throughout the training dataset.
 
 <img width="2477" height="512" alt="download-36" src="https://github.com/user-attachments/assets/7f87eb46-786d-41d1-92d8-7b8eb54f8bb0" />
+<img width="2477" height="512" alt="download-37" src="https://github.com/user-attachments/assets/41d266e9-59f1-4fe3-b146-83a4e1d0a9dc" />
+
 
 ---
 
