@@ -1,9 +1,9 @@
-<img width="1490" height="1948" alt="download" src="https://github.com/user-attachments/assets/e50bd024-9299-4cf1-bed7-ae1c645c4664" />
 # Paulo Ferrini Artstyle LoRA
 
 <p align="center">
-<img src="images/hero.jpg" width="100%">
+<img width="3840" height="2160" alt="head" src="https://github.com/user-attachments/assets/95d1441d-f9d7-4b17-a104-13fbaec53f9f" />
 </p>
+
 
 This project documents the development of a custom Stable Diffusion 1.5 LoRA trained exclusively on the artwork of Paulo Ferrini.
 
