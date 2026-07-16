@@ -15,7 +15,7 @@ Rather than reproducing existing artworks, the LoRA was trained to capture recur
 
 # Motivation
 
-For many years my artwork has explored themes inspired by body horror, science fiction and dark fantasy. Much of this inspiration comes from practical effects and creature design found in films of the 1980s, particularly works such as The Thing, where physical transformation and organic deformation become part of the visual storytelling.
+A lot of my artwork has explored themes inspired by body horror, science fiction and dark fantasy. Much of this inspiration comes from practical effects and creature design found in films of the 1980s, particularly works such as The Thing, where physical transformation and organic deformation become part of the visual storytelling.
 
 While the subjects of my images vary, they are connected through a consistent visual language. The artworks combine digitally sculpted faces with physically based materials and cinematic lighting, creating images that oscillate between realistic portraiture and unsettling human deformation.
 
