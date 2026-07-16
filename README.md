@@ -142,14 +142,31 @@ This behavior became particularly evident in portrait generations, where facial 
 ---
 
 
+# Gradio Application
+
+After training the LoRA, a custom Gradio application was developed to simplify experimentation and evaluation. Instead of interacting directly with the inference pipeline, the interface provides a unified environment for prompt creation, checkpoint selection and parameter exploration.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/aa53ba0a-f987-447f-a644-f5885530bf47" width="100%"/>
+</p>
+
+# ControlNet
+
+The latest version of the application also integrates ControlNet Depth to provide additional structural guidance during inference. This allows reference images to influence pose and composition while the trained LoRA transfers the learned artistic style.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/dfbbddfc-53fa-4a89-b848-6441a0bf552f" width="50%"/>
+</p>
+
+
+
+---
+
+
 # About
 
-**Paulo Ferrini**
+**Paulo Ferrini**  
+3D Artist · Look Development · Digital Art
 
-Website
-
-https://www.pauloferrini.com
-
-Instagram
-
-https://www.instagram.com/pauliferrino
+Portfolio:  [pauloferrini.com](https://pauloferrini.com)  
+Instagram:  [instagram.com](https://www.instagram.com/pauliferrino)
