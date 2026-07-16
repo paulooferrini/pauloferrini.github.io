@@ -7,36 +7,35 @@
 
 This project documents the development of a custom Stable Diffusion 1.5 LoRA trained exclusively on the artwork of Paulo Ferrini.
 
-The objective was to create a lightweight adapter capable of reproducing the characteristic visual language found throughout the artist's portfolio while preserving the flexibility of the underlying Stable Diffusion model. Instead of learning individual artworks, the LoRA was trained to capture recurring stylistic elements including facial structure, composition, lighting, surface appearance and color relationships.
+The goal was to investigate how well a relatively small, carefully curated dataset can transfer a distinctive artistic style into a diffusion model while maintaining enough flexibility for generating new and unseen images.
 
-The repository contains the complete training workflow, including dataset preparation, training notebooks, validation experiments and inference examples. Every stage of the process is documented, from the initial dataset to the final LoRA weights.
+Rather than reproducing existing artworks, the LoRA was trained to capture recurring visual characteristics found throughout my work. The resulting model is intended as both a creative tool for experimentation and a foundation for exploring new visual ideas inspired by my artistic style.
 
 ---
 
-# Abstract
+# Motivation
 
-Large text describing the project.
+For many years my artwork has explored themes inspired by body horror, science fiction and dark fantasy. Much of this inspiration comes from practical effects and creature design found in films of the 1980s, particularly works such as The Thing, where physical transformation and organic deformation become part of the visual storytelling.
 
-Recent advances in parameter-efficient fine-tuning have made it possible to adapt large diffusion models using only a comparatively small number of training images. LoRA (Low-Rank Adaptation) has become one of the most practical techniques for teaching Stable Diffusion highly specific concepts without modifying the original model.
+While the subjects of my images vary, they are connected through a consistent visual language. The artworks combine digitally sculpted faces with physically based materials and cinematic lighting, creating images that oscillate between realistic portraiture and unsettling human deformation.
 
-This project explores the creation of an artistic LoRA trained on a carefully curated dataset of portrait artwork by Paulo Ferrini. Rather than reproducing existing images, the goal is to transfer the visual characteristics of the style into a reusable model capable of generating new compositions while maintaining a coherent artistic identity.
-
-The resulting model produces portraits that preserve the distinctive atmosphere of the original work while remaining compatible with ordinary Stable Diffusion prompting workflows.
+The motivation behind this project was to investigate whether these visual characteristics could be learned as a coherent artistic style rather than as individual images. Instead of creating a character LoRA or teaching a specific subject, the objective was to capture the overall atmosphere, material qualities and aesthetic identity of my work.
 
 ---
 
 # Dataset
 
+
+The training dataset consists of 33 original artworks created entirely by myself. Every image was produced digitally using Blender together with Substance Painter and rendered with either Cycles or Octane Render.
+
+Instead of assembling a large and diverse dataset, I deliberately selected a relatively small number of images that represent the core visual language of my work. Each image was manually chosen to maintain stylistic consistency across the dataset while still covering different faces, materials, compositions and lighting situations.
+
+All images were prepared at a resolution of 512 × 512 pixels, providing a consistent foundation for training the LoRA.
+
 <p align="center">
 <img width="1490" height="1948" alt="download" src="https://github.com/user-attachments/assets/a10ade03-8604-443a-b0ec-cda9a7c9bd8d" />
 
 </p>
-
-The training dataset consists of carefully selected artworks representing the visual language developed throughout Paulo Ferrini's portrait work.
-
-Instead of maximizing dataset size, emphasis was placed on stylistic consistency. The selected images share similar composition, lighting, facial proportions and rendering quality while still providing enough variation for the model to generalize beyond the original training examples.
-
-Before training, all images were prepared for Stable Diffusion 1.5 by applying a consistent preprocessing workflow. Maintaining a clean and coherent dataset proved significantly more important than increasing the overall number of training images.
 
 ---
 
