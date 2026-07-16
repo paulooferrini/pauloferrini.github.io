@@ -90,6 +90,7 @@ Full-body generations also proved more challenging. However, when successful, th
 One of the most surprising outcomes of this project was not how accurately the LoRA reproduced individual visual elements, but how strongly it amplified the underlying aesthetic of the dataset. Instead of merely imitating the original images, the model appears to emphasize the recurring visual themes present throughout the training material.
 
 This behavior became particularly evident in portrait generations, where facial structures gradually transform into increasingly uncanny and distorted forms as the LoRA strength increases. Although this effect was not explicitly intended during training, it aligns remarkably well with the artistic influences behind my work and ultimately became one of the defining characteristics of the final model.
+
 ---
 
 
