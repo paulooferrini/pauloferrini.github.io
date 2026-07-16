@@ -120,10 +120,11 @@ The comparison also confirms that the influence of the LoRA increases continuous
 </tr>
 
 <tr>
-<td><img src="https://github.com/user-attachments/assets/b8ed51ca-f46f-4ba8-9e14-f24bf66f54b9" width="100%"></td>
-<td><img src="https://github.com/user-attachments/assets/662c71f9-293e-49c3-9968-70db88735878"  width="100%"></td>
-<td><img  src="https://github.com/user-attachments/assets/c903634b-2777-46de-a156-38078c65df2e" width="100%"></td>
 <td><img src="https://github.com/user-attachments/assets/73d987c1-8c84-4d50-a51c-d95039a80ae7" width="100%"></td>
+<td><img  src="https://github.com/user-attachments/assets/c903634b-2777-46de-a156-38078c65df2e" width="100%"></td>
+<td><img src="https://github.com/user-attachments/assets/662c71f9-293e-49c3-9968-70db88735878"  width="100%"></td>
+<td><img src="https://github.com/user-attachments/assets/b8ed51ca-f46f-4ba8-9e14-f24bf66f54b9" width="100%"></td>
+
 
 </tr>
 </table>
