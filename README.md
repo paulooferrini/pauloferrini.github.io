@@ -1,3 +1,4 @@
+<img width="1490" height="1948" alt="download" src="https://github.com/user-attachments/assets/e50bd024-9299-4cf1-bed7-ae1c645c4664" />
 # Paulo Ferrini Artstyle LoRA
 
 <p align="center">
@@ -27,7 +28,8 @@ The resulting model produces portraits that preserve the distinctive atmosphere 
 # Dataset
 
 <p align="center">
-<img src="images/download.png" width="90%">
+<img width="1490" height="1948" alt="download" src="https://github.com/user-attachments/assets/a10ade03-8604-443a-b0ec-cda9a7c9bd8d" />
+
 </p>
 
 The training dataset consists of carefully selected artworks representing the visual language developed throughout Paulo Ferrini's portrait work.
