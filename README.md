@@ -92,14 +92,6 @@ The comparison also confirms that the influence of the LoRA increases continuous
 
 # Stable Diffusion 1.5
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/bedbea8b-00a3-4349-88db-1b68bd00230c"  width="25%"/>
-<img src="https://github.com/user-attachments/assets/7a61035e-95d5-4432-a72f-18c6ea5ea4ab"  width="25%"/>
-<img src="https://github.com/user-attachments/assets/b56dbe9f-55ec-44d1-bd60-546d68ac06c5"  width="25%"/>
-<img src="https://github.com/user-attachments/assets/4054f271-c3ff-48bc-a1d4-1b3719c8432a"  width="25%"/>
-
-</p>
-
 <table align="center">
 <tr>
 <th>0.0</th>
@@ -109,10 +101,11 @@ The comparison also confirms that the influence of the LoRA increases continuous
 </tr>
 
 <tr>
-<td><img src="https://github.com/user-attachments/assets/bedbea8b-00a3-4349-88db-1b68bd00230c" width="100%"></td>
-<td><img  src="https://github.com/user-attachments/assets/7a61035e-95d5-4432-a72f-18c6ea5ea4ab" width="100%"></td>
-<td><img src="https://github.com/user-attachments/assets/b56dbe9f-55ec-44d1-bd60-546d68ac06c5"  width="100%"></td>
 <td><img src="https://github.com/user-attachments/assets/4054f271-c3ff-48bc-a1d4-1b3719c8432a" width="100%"></td>
+<td><img src="https://github.com/user-attachments/assets/b56dbe9f-55ec-44d1-bd60-546d68ac06c5"  width="100%"></td>
+<td><img  src="https://github.com/user-attachments/assets/7a61035e-95d5-4432-a72f-18c6ea5ea4ab" width="100%"></td>
+<td><img src="https://github.com/user-attachments/assets/bedbea8b-00a3-4349-88db-1b68bd00230c" width="100%"></td>
+
 </tr>
 </table>
 
