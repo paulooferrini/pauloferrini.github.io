@@ -1,19 +1,21 @@
 # Paulo Ferrini Artstyle LoRA
 
+*A Stable Diffusion 1.5 LoRA trained on my personal 3D art style.*
+
 <p align="center">
 <img src="https://github.com/user-attachments/assets/95d1441d-f9d7-4b17-a104-13fbaec53f9f"  width="100%"/>
 </p>
 
 
-This project documents the development of a custom Stable Diffusion 1.5 LoRA trained exclusively on the artwork of Paulo Ferrini.
+This project documents the development of a custom Stable Diffusion 1.5 LoRA trained exclusively on my personal artwork. The objective was to investigate whether a relatively small and carefully curated dataset could successfully transfer the distinctive visual characteristics of my art style into a diffusion model.
 
-The goal was to investigate how well a relatively small, carefully curated dataset can transfer a distinctive artistic style into a diffusion model while maintaining enough flexibility for generating new and unseen images.
+Rather than reproducing existing artworks, the LoRA was designed to learn the underlying visual language of my work. The resulting model can be used both as a creative tool for experimentation and as a starting point for generating new imagery inspired by my artistic style.
 
-Rather than reproducing existing artworks, the LoRA was trained to capture recurring visual characteristics found throughout my work. The resulting model is intended as both a creative tool for experimentation and a foundation for exploring new visual ideas inspired by my artistic style.
+This documentation presents the complete project, including the dataset, evaluation and the custom inference interface developed alongside the LoRA.
 
 ---
 
-# Motivation
+# Artistic Background
 
 A lot of my artwork has explored themes inspired by body horror, science fiction and dark fantasy. Much of this inspiration comes from practical effects and creature design found in films of the 1980s, particularly works such as The Thing, where physical transformation and organic deformation become part of the visual storytelling.
 
@@ -41,10 +43,14 @@ All images were prepared at a resolution of 512 × 512 pixels, providing a consi
 
 # Training 
 
-The LoRA was trained on Stable Diffusion 1.5 using the curated dataset described above. During development, validation images were generated repeatedly using a fixed prompt together with both fixed and varying random seeds. This made it possible to compare the evolution of the learned style throughout training and to evaluate how consistently the LoRA transferred stylistic features across different generations.
+The LoRA was trained on Stable Diffusion 1.5 using the curated dataset described above. The primary objective was not to reproduce individual artworks, but to capture the overall artistic language shared across the dataset.
 
-The focus of the training process was not to reproduce individual artworks but to learn the underlying artistic style. Particular attention was given to preserving facial structure, material appearance and the characteristic visual atmosphere present throughout the dataset.
+Throughout development, validation images were generated repeatedly using identical prompts and fixed random seeds. Additional generations with varying seeds were used to evaluate how consistently the learned style transferred across different subjects.
 
+Rather than relying exclusively on quantitative metrics, the training process was primarily evaluated through visual comparison. This made it possible to monitor the evolution of the learned style and identify when the LoRA began to consistently reproduce the characteristic appearance of my artwork.
+
+
+*Trigger Phrase : style of pauloferrini
 ---
 
 # LoRA Strength
@@ -75,6 +81,24 @@ Around a CFG Scale of 3, the generated images retain a much stronger resemblance
 
 
 ---
+
+# Base Model Comparison
+
+To evaluate how well the trained LoRA generalizes across different checkpoints, the same prompt and identical generation settings were applied to both Stable Diffusion 1.5 and Realistic Vision. The comparison was performed using fixed random seeds while gradually increasing the LoRA strength from 0.0 to 1.2.
+
+Although both checkpoints successfully learned the artistic characteristics of the dataset, their interpretation of the style differs noticeably. Stable Diffusion 1.5 emphasizes the stylized appearance of the original artwork, while Realistic Vision retains a stronger photorealistic foundation before gradually adopting the learned visual language.
+
+The comparison also confirms that the influence of the LoRA increases continuously with higher strength values. At lower strengths the outputs remain close to the underlying checkpoint, whereas around 1.2 the distinctive Paulo Ferrini art style becomes clearly recognizable on both models.
+
+# Stable Diffusion 1.5
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/bedbea8b-00a3-4349-88db-1b68bd00230c"  width="25%"/>
+<img src="https://github.com/user-attachments/assets/7a61035e-95d5-4432-a72f-18c6ea5ea4ab"  width="25%"/>
+<img src="https://github.com/user-attachments/assets/b56dbe9f-55ec-44d1-bd60-546d68ac06c5"  width="25%"/>
+<img src="https://github.com/user-attachments/assets/4054f271-c3ff-48bc-a1d4-1b3719c8432a"  width="25%"/>
+
+</p>
 
 # Generalization
 
