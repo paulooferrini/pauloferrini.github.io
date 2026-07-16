@@ -92,6 +92,8 @@ The comparison also confirms that the influence of the LoRA increases continuous
 
 # Stable Diffusion 1.5
 
+Prompt: human face style of pauloferrini
+
 <table align="center">
 <tr>
 <th>0.0</th>
@@ -110,6 +112,8 @@ The comparison also confirms that the influence of the LoRA increases continuous
 </table>
 
 # Realistic Vision
+
+Prompt: human face style of pauloferrini
 
 <table align="center">
 <tr>
