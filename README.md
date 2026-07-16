@@ -159,7 +159,7 @@ After training the LoRA, a custom Gradio application was developed to simplify e
 The latest version of the application also integrates ControlNet Depth to provide additional structural guidance during inference. This allows reference images to influence pose and composition while the trained LoRA transfers the learned artistic style.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/dfbbddfc-53fa-4a89-b848-6441a0bf552f" width="50%"/>
+<img src="https://github.com/user-attachments/assets/dfbbddfc-53fa-4a89-b848-6441a0bf552f" width="100%"/>
 </p>
 
 
